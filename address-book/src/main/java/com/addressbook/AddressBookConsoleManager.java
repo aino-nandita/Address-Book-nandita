@@ -19,7 +19,7 @@ public class AddressBookConsoleManager {
 		
 			switch(choice) {
 
-				case 1: address=acutil.createAddress();
+				case 1: address=acutil.create();
 						break;
 					
 				case 2: System.out.println("Enter the name to display the details:");

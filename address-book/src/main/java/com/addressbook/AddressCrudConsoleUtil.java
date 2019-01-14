@@ -3,11 +3,13 @@ package main.java.com.addressbook;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import main.java.com.addressbook.Address;
+
 public class AddressCrudConsoleUtil {
-	HashMap< String , Address> hashmapobj = new HashMap <>();
+	public HashMap< String , Address> hashmapobj = new HashMap <>();
 	Scanner scanner=new Scanner(System.in);
 
-		public Address createAddress() {
+		public Address create() {
 			Address add=new Address();
 			
 			System.out.println("Enter your Address id: ");

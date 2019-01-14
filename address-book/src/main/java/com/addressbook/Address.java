@@ -3,8 +3,8 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Address {
-	int id, zip;
-	String name, street, city, country;
+	public int id, zip;
+	public String name, street, city, country;
 
 		public int getId() {
 			return id;
