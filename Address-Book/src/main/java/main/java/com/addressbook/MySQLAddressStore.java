@@ -11,6 +11,8 @@ public class MySQLAddressStore implements AddressStore{
 		
 	try {
 		
+		
+		
 		Class.forName("com.mysql.jdbc.Driver"); // To load the mySQL driver
 		
 		System.out.println("Trying to connect to database....");
