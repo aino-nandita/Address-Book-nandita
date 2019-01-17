@@ -1,6 +1,7 @@
 package main.java.com.addressbook;
 
 public interface AddressStore {
+	
 
 	public int create(String name, Address address);
 	
