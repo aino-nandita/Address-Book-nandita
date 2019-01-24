@@ -1,7 +1,17 @@
 package main.java.com.addressbook;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Address")
 public class Address {
-	public int id, zip;
+	@Id
+	@Column(name="add_id")
+	private int id;
+	private int zip;
 	public String name, street, city, country;
 
 		public int getId() {

@@ -3,18 +3,12 @@ package main.java.com.addressbook;
 public interface AddressStore {
 	
 
-	public int create(String name, Address address);
+	public int create(Address address);
 	
-	public Address read(String name);
+	public Address read(int id);
 	
-	public void update(String name, Address address);
+	public void update(Address address);
 	
-	public int delete(String name);
-
-	/*public Address get(String name);
-
-	public void replace(String name1, Address updateadd);
-
-	public void remove(String name);*/
+	public int delete(int id);
 
 }
